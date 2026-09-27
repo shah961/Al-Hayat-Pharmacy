@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al Hayat Pharmacy | Trusted Healthcare in Allama Iqbal Town, Lahore</title>
+  <meta name="description" content="Al Hayat Pharmacy is a trusted local pharmacy in Allama Iqbal Town, Lahore, Pakistan. Dedicated to healthcare accessibility and quality pharmacy products.">
+  <meta name="keywords" content="Al Hayat Pharmacy, Pharmacy Allama Iqbal Town Lahore, Healthcare Lahore, Medicine Lahore">
+  <link rel="canonical" href="https://alhayatpharmacy.pk/index.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Al Hayat Pharmacy | Trusted Healthcare in Allama Iqbal Town, Lahore">
+  <meta property="og:description" content="Your trusted pharmacy partner in Allama Iqbal Town, Lahore. Contact us for product availability and healthcare essentials.">
+  <meta property="og:url" content="https://alhayatpharmacy.pk/index.html">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Al Hayat Pharmacy | Lahore">
+  <meta name="twitter:description" content="Trusted healthcare and pharmacy services in Allama Iqbal Town, Lahore.">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- External CDNs with async/defer -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="main.js" defer></script>
+  <script src="animations.js" defer></script>
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Pharmacy",
+    "name": "Al Hayat Pharmacy",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Allama Iqbal Town",
+      "addressRegion": "Lahore",
+      "addressCountry": "PK"
+    },
+    "telephone": ["+92-322-8021752", "+92-307-4790909", "+92-321-1125544"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <span>📍 Location: Allama Iqbal Town, Lahore, Pakistan</span>
+      <span>📞 Call Us: <a href="tel:03228021752">0322 8021752</a> | <a href="tel:03074790909">0307 4790909</a> | <a href="tel:03211125544">0321 1125544</a></span>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <span class="logo-icon">✚</span>
+        <span class="logo-text">AL HAYAT <span class="accent-text">PHARMACY</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:03228021752" class="btn btn-primary btn-sm">Call Pharmacy</a>
+        <button class="hamburger-btn" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay & Navigation Drawer -->
+  <div class="mobile-menu-backdrop" id="menuBackdrop"></div>
+  <aside class="mobile-menu-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <span class="logo-text">AL HAYAT <span class="accent-text">PHARMACY</span></span>
+      <button class="close-btn" id="menuClose" aria-label="Close Navigation Menu">&times;</button>
+    </div>
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="index.html" class="mobile-link active">Home</a></li>
+        <li><a href="about.html" class="mobile-link">About Us</a></li>
+        <li><a href="services.html" class="mobile-link">Pharmacy Services</a></li>
+        <li><a href="products.html" class="mobile-link">Product Categories</a></li>
+        <li><a href="contact.html" class="mobile-link">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="drawer-footer">
+      <p><strong>Contact Details:</strong></p>
+      <p>📍 Allama Iqbal Town, Lahore</p>
+      <p>📞 <a href="tel:03228021752">0322 8021752</a></p>
+      <p>📞 <a href="tel:03074790909">0307 4790909</a></p>
+      <p>📞 <a href="tel:03211125544">0321 1125544</a></p>
+    </div>
+  </aside>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge">Healthcare Excellence</span>
+          <h1 class="hero-title">Your Trusted Pharmacy in Allama Iqbal Town</h1>
+          <p class="hero-subtitle">Providing access to genuine healthcare products, over-the-counter essentials, and professional support in Lahore, Pakistan.</p>
+          <div class="hero-cta-group">
+            <a href="contact.html" class="btn btn-primary">Contact Pharmacy</a>
+            <a href="services.html" class="btn btn-secondary">Explore Services</a>
+          </div>
+          <div class="contact-strip">
+            <span class="strip-label">Direct Lines:</span>
+            <a href="tel:03228021752" class="phone-link">0322 8021752</a>
+            <a href="tel:03074790909" class="phone-link">0307 4790909</a>
+            <a href="tel:03211125544" class="phone-link">0321 1125544</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div id="webgl-container" class="webgl-canvas-wrapper" aria-hidden="true"></div>
+          <div class="fallback-hero-card">
+            <div class="card-icon">✚</div>
+            <h3>Al Hayat Pharmacy</h3>
+            <p>Allama Iqbal Town, Lahore</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Medical Disclaimer Banner -->
+    <section class="disclaimer-banner">
+      <div class="container">
+        <p class="disclaimer-text"><strong>Medical Notice:</strong> Information on this website is for general informational purposes only. Please consult qualified medical professionals for personal advice, diagnosis, or treatment. For current product availability, reach out directly via phone.</p>
+      </div>
+    </section>
+
+    <!-- Trust / Value Pillars -->
+    <section class="section pillars-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Committed to Quality Service</h2>
+          <p class="section-subtitle">Core principles guiding our daily service to the local community.</p>
+        </div>
+        <div class="grid grid-4">
+          <div class="card pillar-card">
+            <div class="card-icon">🏛️</div>
+            <h3>Trusted Local Presence</h3>
+            <p>Serving residents of Allama Iqbal Town and surrounding areas with reliability and respect.</p>
+          </div>
+          <div class="card pillar-card">
+            <div class="card-icon">📞</div>
+            <h3>Convenient Contact</h3>
+            <p>Multiple direct contact lines available so you can easily check item availability before visiting.</p>
+          </div>
+          <div class="card pillar-card">
+            <div class="card-icon">📦</div>
+            <h3>Essential Healthcare</h3>
+            <p>A broad range of over-the-counter essentials, personal hygiene items, and wellness products.</p>
+          </div>
+          <div class="card pillar-card">
+            <div class="card-icon">🤝</div>
+            <h3>Customer-Focused</h3>
+            <p>Dedicated staff ready to assist you with courtesy and healthcare professionalism.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="section about-preview-section bg-alt">
+      <div class="container grid grid-2 align-center">
+        <div class="about-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&w=800&q=80" alt="Pharmacy Interior Essentials" loading="lazy" width="800" height="533" class="rounded-img shadow-lg">
+        </div>
+        <div class="about-preview-content">
+          <span class="badge">About Our Pharmacy</span>
+          <h2>Dedicated to Community Healthcare</h2>
+          <p>Al Hayat Pharmacy operates in Allama Iqbal Town, Lahore, focusing on accessible healthcare products, friendly guidance, and trustworthy service.</p>
+          <p>Whether you require assistance regarding specific medication availability or general wellness products, our goal is to assist you efficiently.</p>
+          <div class="notice-box">
+            <p><em>Note: For current product stock or specific item inquiries, please contact our pharmacy lines directly.</em></p>
+          </div>
+          <a href="about.html" class="btn btn-secondary margin-top-md">Learn More About Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="section services-preview-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Pharmacy Support & Product Scope</h2>
+          <p class="section-subtitle">Overview of essential items and support available.</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="card service-card">
+            <h3>Prescription Support</h3>
+            <p>Assistance with fulfilling valid prescriptions from recognized healthcare providers.</p>
+          </div>
+          <div class="card service-card">
+            <h3>OTC Healthcare Essentials</h3>
+            <p>Over-the-counter products for general ailments, pain relief, and seasonal care.</p>
+          </div>
+          <div class="card service-card">
+            <h3>Personal & Hygiene Care</h3>
+            <p>Skincare, personal hygiene, and daily wellness items for the whole family.</p>
+          </div>
+        </div>
+        <div class="text-center margin-top-lg">
+          <a href="services.html" class="btn btn-primary">View All Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Categories Preview -->
+    <section class="section products-preview-section bg-alt">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Product Categories</h2>
+          <p class="section-subtitle">Explore product groupings available at Al Hayat Pharmacy.</p>
+        </div>
+        <div class="grid grid-4">
+          <div class="card category-card">
+            <img src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=80" alt="Medicines Category" loading="lazy" width="400" height="300">
+            <div class="category-card-body">
+              <h3>Medicines</h3>
+              <p>Prescription & OTC pharmaceutical products.</p>
+            </div>
+          </div>
+          <div class="card category-card">
+            <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=80" alt="Vitamins Category" loading="lazy" width="400" height="300">
+            <div class="category-card-body">
+              <h3>Vitamins & Supplements</h3>
+              <p>Daily nutritional and health support items.</p>
+            </div>
+          </div>
+          <div class="card category-card">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=400&q=80" alt="Personal Care Category" loading="lazy" width="400" height="300">
+            <div class="category-card-body">
+              <h3>Personal Care</h3>
+              <p>Hygiene, skincare, and grooming essentials.</p>
+            </div>
+          </div>
+          <div class="card category-card">
+            <img src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=400&q=80" alt="Baby Care Category" loading="lazy" width="400" height="300">
+            <div class="category-card-body">
+              <h3>Baby & Child Care</h3>
+              <p>Care products for infants and young children.</p>
+            </div>
+          </div>
+        </div>
+        <p class="disclaimer-text text-center margin-top-md">Please contact Al Hayat Pharmacy directly for current stock, specifications, and availability.</p>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="section faq-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Common queries regarding our location and communications.</p>
+        </div>
+        <div class="faq-accordion">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Where is Al Hayat Pharmacy located?</button>
+            <div class="faq-answer">
+              <p>Al Hayat Pharmacy is located in Allama Iqbal Town, Lahore, Pakistan.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">How can I contact Al Hayat Pharmacy?</button>
+            <div class="faq-answer">
+              <p>You can reach us directly on our official telephone numbers: <strong>0322 8021752</strong>, <strong>0307 4790909</strong>, or <strong>0321 1125544</strong>.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">How can I verify product availability?</button>
+            <div class="faq-answer">
+              <p>Please call any of our direct phone lines before visiting to confirm if a specific product or medicine is currently in stock.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-banner">
+      <div class="container text-center">
+        <h2>Need Immediate Assistance or Inquiry?</h2>
+        <p>Speak directly with Al Hayat Pharmacy in Allama Iqbal Town, Lahore.</p>
+        <div class="cta-phones">
+          <a href="tel:03228021752" class="btn btn-light">📞 0322 8021752</a>
+          <a href="tel:03074790909" class="btn btn-light">📞 0307 4790909</a>
+          <a href="tel:03211125544" class="btn btn-light">📞 0321 1125544</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <h3>AL HAYAT PHARMACY</h3>
+        <p>A trusted local pharmacy committed to community health and accessibility in Lahore.</p>
+        <p class="location-text">📍 Allama Iqbal Town, Lahore, Pakistan</p>
+      </div>
+      <div class="footer-col links-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col links-col">
+        <h4>Legal & Policy</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col contact-col">
+        <h4>Official Contact</h4>
+        <p>Direct Telephone Lines:</p>
+        <ul>
+          <li><a href="tel:03228021752">0322 8021752</a></li>
+          <li><a href="tel:03074790909">0307 4790909</a></li>
+          <li><a href="tel:03211125544">0321 1125544</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Al Hayat Pharmacy. All rights reserved.</p>
+        <p>Allama Iqbal Town, Lahore, Pakistan</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+        </html>
+        
